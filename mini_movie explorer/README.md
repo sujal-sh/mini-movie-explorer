@@ -25,8 +25,8 @@ A single-page React application that allows users to search for movies and maint
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/mini-movie-explorer.git
-cd mini-movie-explorer
+git clone https://github.com/sujal-sh/mini-movie-explorer.git
+cd mini_movie-explorer
 npm install
 npm run dev
 ```
