@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: white;
+  text-align: center;
+}
+
+.movie-card img {
+  max-width: 100%;
+}
+
+.watchlist {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .results {
+    flex: 2;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .watchlist {
+    flex: 1;
+  }
+}
